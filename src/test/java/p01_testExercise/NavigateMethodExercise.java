@@ -1,4 +1,4 @@
-package TestExercise;
+package p01_testExercise;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

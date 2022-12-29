@@ -1,4 +1,4 @@
-package TestExercise;
+package p01_testExercise;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

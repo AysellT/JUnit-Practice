@@ -1,11 +1,13 @@
-package TestExercise;
+package p01_testExercise;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Basic01 {
+public class Basic02 {
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -14,20 +16,14 @@ public class Basic01 {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-        driver.get("https://www.amazon.com.tr");
-        System.out.println(driver.getTitle()); //Amazon.com. Spend less. Smile more.
+        driver.get("https://www.idefix.com");
 
-        String expectedKelime = "alisveris";
-        String pageSource = driver.getPageSource();
-
-        if (pageSource.contains(expectedKelime)){
-            System.out.println("test passed");
-        }else{
-            System.out.println("test failed");
-        }
+        WebElement araButton = driver.findElement(By.id("searchIcon"));
+        araButton.click();
 
         Thread.sleep(3000);
         driver.close();
 
     }
+
 }
