@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 import java.util.List;
 
-public class Ornek1 {
+public class Ornek1_Locators {
 
     public static void main(String[] args) throws InterruptedException {
         //1 - Bir test class'i olusturun ilgili ayarlari yapin

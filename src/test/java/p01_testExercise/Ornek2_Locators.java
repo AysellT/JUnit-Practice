@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Ornek2 {
+public class Ornek2_Locators{
 
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","src/drivers/chromedriver");
