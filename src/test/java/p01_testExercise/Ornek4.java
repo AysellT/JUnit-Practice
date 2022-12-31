@@ -1,7 +1,11 @@
 package p01_testExercise;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +13,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class Ornek4 {
+
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -37,7 +42,7 @@ public class Ornek4 {
         //5. Enter product name in search input and click search button
         driver.findElement(By.id("search_product")).sendKeys("jeans");
         driver.findElement(By.id("submit_search")).click();
-
+        driver.findElement(By.id("search_product")).sendKeys(Keys.PAGE_DOWN);
         //6. Verify 'SEARCHED PRODUCTS' is visible
         WebElement searchProductsYazisi = driver.findElement(By.xpath("//h2[text()='Searched Products']"));
 
@@ -55,6 +60,7 @@ public class Ornek4 {
             System.out.println("aranan urunler gorunmuyor, test FAILED");
         }
         Thread.sleep(3000);
+
         //8. Add those products to cart
         driver.findElement(By.xpath("(//a[text()='Add to cart'])[1]")).click();
         driver.findElement(By.xpath("//button[text()='Continue Shopping']")).click();
@@ -76,7 +82,7 @@ public class Ornek4 {
         }else{
             System.out.println("secili urunler sepete eklenmedi, test FAILED");
         }
-
+        Thread.sleep(3000);
         //10. Click 'Signup / Login' button and submit login details
         driver.findElement(By.xpath("//a[text()=' Signup / Login']")).click();
         driver.findElement(By.xpath("//input[@data-qa='login-email']")).sendKeys("suleymancan157@hotmail.com");

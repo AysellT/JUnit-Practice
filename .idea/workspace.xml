@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df25df3e-5bb5-426b-8168-bedd0c1a8ac7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/Basic01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Basic01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/Basic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Basic02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/Basic03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Basic03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/NavigateMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/NavigateMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/NavigateMethodExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/NavigateMethodExercise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/Ornek1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Ornek1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestExercise/Ornek2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Ornek2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p01_testExercise/Ornek4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p01_testExercise/Ornek4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +42,45 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
+  <component name="RunManager" selected="JUnit.Ornek4">
+    <configuration name="JUnit01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit01" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ornek4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p01_testExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p01_testExercise" />
+      <option name="MAIN_CLASS_NAME" value="p01_testExercise.Ornek4" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Ornek4" />
+        <item itemvalue="JUnit.JUnit01.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
