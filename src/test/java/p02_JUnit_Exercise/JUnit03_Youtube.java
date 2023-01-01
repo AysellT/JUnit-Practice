@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class JUnit_Youtube {
+public class JUnit03_Youtube {
 
 
     //1) Bir class oluşturun: YoutubeAssertions
