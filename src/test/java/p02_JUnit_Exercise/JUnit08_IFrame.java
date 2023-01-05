@@ -56,8 +56,8 @@ public class JUnit08_IFrame extends TestBase {
         WebElement jMadeEasy = driver.findElement(By.xpath("//img[@src='Jmeter720.png']"));
         jMadeEasy.click();
 
-        String ikinciSayfaWHD = "";
         Set<String> tumWHD = driver.getWindowHandles();
+        String ikinciSayfaWHD = "";
         for (String eachWHD : tumWHD){
             if (!eachWHD.equals(ilkSayfaWHD)){
                 ikinciSayfaWHD=eachWHD;
