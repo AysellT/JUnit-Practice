@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import utilities.ReusableMethod;
 import utilities.TestBase;
 
 public class JUnit18_AutomationE26 extends TestBase {
@@ -19,7 +20,7 @@ public class JUnit18_AutomationE26 extends TestBase {
     //7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
 
     @Test
-    public void test01(){
+    public void test01() throws InterruptedException {
         //2. Navigate to url 'http://automationexercise.com'
         driver.get("http://automationexercise.com");
 
@@ -29,17 +30,18 @@ public class JUnit18_AutomationE26 extends TestBase {
 
         //4. Scroll down page to bottom
         Actions actions = new Actions(driver);
-        actions.sendKeys(Keys.END);
-
+        actions.sendKeys(Keys.END).perform();
+        Thread.sleep(2000);
         //5. Verify 'SUBSCRIPTION' is visible
         WebElement subscriptionElement = driver.findElement(By.xpath("//h2[text()='Subscription']"));
         Assert.assertTrue(subscriptionElement.isDisplayed());
 
         //6. Scroll up page to top
-        actions.sendKeys(Keys.ARROW_UP);
-
+        actions.sendKeys(Keys.ARROW_UP).perform();
+        ReusableMethod.bekle(2);
         //7. Verify that page is scrolled up and 'Full-Fledged practice website for Automation Engineers' text is visible on screen
-
+        WebElement text = driver.findElement(By.xpath("(//*[text()='Full-Fledged practice website for Automation Engineers'])[1]"));
+        Assert.assertTrue(text.isDisplayed());
     }
 
 }

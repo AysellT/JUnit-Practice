@@ -9,6 +9,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import utilities.ReusableMethod;
 
 import java.time.Duration;
 
@@ -53,7 +55,11 @@ public class JUnit02_Teknosa {
         System.out.println(sonucSayisi.getText()+" bulundu");
 
         // 4- Cikan ilk urune tiklayin
-        driver.findElement(By.xpath("(//a[@class='prd-link'])[1]")).click();
+        ReusableMethod.bekle(3);
+        Actions actions = new Actions(driver);
+        WebElement ilkUrun = driver.findElement(By.xpath("(//div[@class='prd-body'])[1]"));
+        actions.click(ilkUrun).perform();
+        ReusableMethod.bekle(3);
 
         // 5- Sepete ekleyiniz
         WebElement sepetEkleButonu = driver.findElement(By.xpath("(//button[@id='addToCartButton'])[1]"));

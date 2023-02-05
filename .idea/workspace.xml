@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df25df3e-5bb5-426b-8168-bedd0c1a8ac7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit02_Teknosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit02_Teknosa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit18_AutomationE26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit18_AutomationE26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/p02_JUnit_Exercise/JUnit02_Teknosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/p02_JUnit_Exercise/JUnit02_Teknosa.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.JUnit18_AutomationE26.test01">
-    <configuration name="JUnit10_Alert.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JUnit02_Teknosa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -54,56 +56,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
-      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit10_Alert" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JUnit13_IFrame.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
-      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit13_IFrame" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JUnit15_Actions.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
-      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit15_Actions" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JUnit16_AliBaba_Actions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
-      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit16_AliBaba_Actions" />
+      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit02_Teknosa" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit02_Teknosa.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit02_Teknosa" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit04" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JUnit07_KiwiTest.kiwiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="p02_JUnit_Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="p02_JUnit_Exercise" />
+      <option name="MAIN_CLASS_NAME" value="p02_JUnit_Exercise.JUnit07_KiwiTest" />
+      <option name="METHOD_NAME" value="kiwiTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,10 +128,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.JUnit18_AutomationE26.test01" />
-        <item itemvalue="JUnit.JUnit16_AliBaba_Actions" />
-        <item itemvalue="JUnit.JUnit10_Alert.test01" />
-        <item itemvalue="JUnit.JUnit15_Actions.test01" />
-        <item itemvalue="JUnit.JUnit13_IFrame.test01" />
+        <item itemvalue="JUnit.JUnit02_Teknosa.test01" />
+        <item itemvalue="JUnit.JUnit04" />
+        <item itemvalue="JUnit.JUnit07_KiwiTest.kiwiTest" />
+        <item itemvalue="JUnit.JUnit02_Teknosa" />
       </list>
     </recent_temporary>
   </component>
