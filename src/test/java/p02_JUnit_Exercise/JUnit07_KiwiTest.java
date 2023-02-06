@@ -17,7 +17,7 @@ public class JUnit07_KiwiTest extends TestBase {
         driver.get(https + "kiwi.com");
 
         // Cookies'i reddedin
-        WebElement cookies = driver.findElement(By.xpath("(//div[text()='Reject all'])[2]"));
+        WebElement cookies = driver.findElement(By.xpath("//div[text()='Reject all']"));
         cookies.click();
 
         // Sayfa basliginin "Kiwi" icerdigini test edin
@@ -42,7 +42,7 @@ public class JUnit07_KiwiTest extends TestBase {
         Assert.assertTrue(text.getText().contains("TRY"));
 
         // Ucus secenegi olarak tek yon secelim
-        WebElement yonSecimi = driver.findElement(By.xpath("(//div[@class='ButtonPrimitiveContent__StyledButtonPrimitiveContent-sc-1r81o9a-0 ZYrQU'])[10]"));
+        WebElement yonSecimi = driver.findElement(By.xpath("(//button[@type='button'])[12]"));
         yonSecimi.click();
 
         WebElement tekYonSecimi = driver.findElement(By.xpath("//a[@data-test='ModePopupOption-oneWay']"));
@@ -54,7 +54,7 @@ public class JUnit07_KiwiTest extends TestBase {
 
         WebElement kalkisTextBox = driver.findElement(By.xpath("(//input[@data-test='SearchField-input'])[1]"));
         kalkisTextBox.sendKeys("Istanbul");
-        WebElement istanbulTurkiye = driver.findElement(By.xpath("//div[text()='İstanbul, Türkiye']"));
+        WebElement istanbulTurkiye = driver.findElement(By.xpath("(//div[@data-test='PlacePickerRow-wrapper'])[1]"));
         istanbulTurkiye.click();
 
         WebElement varisNoktasiBox = driver.findElement(By.xpath("(//input[@data-test='SearchField-input'])[2]"));
@@ -66,9 +66,11 @@ public class JUnit07_KiwiTest extends TestBase {
         WebElement gidisTarih = driver.findElement(By.xpath("//input[@data-test='SearchFieldDateInput']"));
         gidisTarih.click();
         ReusableMethod.bekle(3);
-        driver.findElement(By.xpath("//div[@data-value='2023-02-05']")).click();
+        driver.findElement(By.xpath("(//div[@data-test='DayContentContainer'])[8]")).click();
+        //driver.findElement(By.xpath("(//div[@data-test='DayContentContainer'])[8]")).click();
         driver.findElement(By.xpath("//button[@data-test='SearchFormDoneButton']")).click();
-        driver.findElement(By.xpath("//div[@class='Checkbox__IconContainer-sc-1xqef2c-0 CULdd']")).click();//booking'i iptaledelim
+        ReusableMethod.bekle(2);
+        driver.findElement(By.xpath("//*[text()='Booking.com ile konaklama arayın']")).click();//booking'i iptaledelim
         ReusableMethod.bekle(3);
         driver.findElement(By.xpath("//a[@data-test='LandingSearchButton']")).click();
 

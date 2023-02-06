@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df25df3e-5bb5-426b-8168-bedd0c1a8ac7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit02_Teknosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit02_Teknosa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit18_AutomationE26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit18_AutomationE26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/p02_JUnit_Exercise/JUnit02_Teknosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/p02_JUnit_Exercise/JUnit02_Teknosa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit07_KiwiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/p02_JUnit_Exercise/JUnit07_KiwiTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.JUnit18_AutomationE26.test01">
+  <component name="RunManager" selected="JUnit.JUnit07_KiwiTest.kiwiTest">
     <configuration name="JUnit02_Teknosa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
       <extension name="coverage">
@@ -127,10 +125,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JUnit07_KiwiTest.kiwiTest" />
         <item itemvalue="JUnit.JUnit18_AutomationE26.test01" />
         <item itemvalue="JUnit.JUnit02_Teknosa.test01" />
         <item itemvalue="JUnit.JUnit04" />
-        <item itemvalue="JUnit.JUnit07_KiwiTest.kiwiTest" />
         <item itemvalue="JUnit.JUnit02_Teknosa" />
       </list>
     </recent_temporary>
