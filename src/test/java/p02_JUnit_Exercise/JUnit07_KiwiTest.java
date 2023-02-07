@@ -66,8 +66,7 @@ public class JUnit07_KiwiTest extends TestBase {
         WebElement gidisTarih = driver.findElement(By.xpath("//input[@data-test='SearchFieldDateInput']"));
         gidisTarih.click();
         ReusableMethod.bekle(3);
-        driver.findElement(By.xpath("(//div[@data-test='DayContentContainer'])[8]")).click();
-        //driver.findElement(By.xpath("(//div[@data-test='DayContentContainer'])[8]")).click();
+        driver.findElement(By.xpath("(//div[@data-test='DayContentContainer'])[58]")).click();
         driver.findElement(By.xpath("//button[@data-test='SearchFormDoneButton']")).click();
         ReusableMethod.bekle(2);
         driver.findElement(By.xpath("//*[text()='Booking.com ile konaklama arayın']")).click();//booking'i iptaledelim
@@ -76,7 +75,7 @@ public class JUnit07_KiwiTest extends TestBase {
 
 
         // Sadece aktarmasiz ucuslar olarak filtreleme yapalim ve en ucuz secenegine tiklayalim
-        WebElement aktarmaSecimi = driver.findElement(By.xpath("(//div[@class='Radio__IconContainer-sc-crlwn1-1 ixtoRa'])[1]"));
+        WebElement aktarmaSecimi = driver.findElement(By.xpath("//span[text()='Aktarmasız (direkt)']"));
         aktarmaSecimi.click();
 
         // Filtreleme yaptigimiz en ucuz ucusun fiyatini getirerek 5000 tl den kucuk oldgunu dogurlayalim
