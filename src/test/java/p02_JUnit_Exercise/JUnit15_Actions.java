@@ -81,7 +81,7 @@ public class JUnit15_Actions extends TestBase {
         WebElement homeButton = driver.findElement(By.xpath("//span[text()=' Home']"));
         homeButton.click();
 
-        String expectedKelime="automation exercise";
+        String expectedKelime="automationexercise";
         Assert.assertTrue(driver.getCurrentUrl().contains(expectedKelime));
 
     }
