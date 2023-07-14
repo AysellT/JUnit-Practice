@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethod;
 import utilities.TestBase;
 
-public class JUnit18_AutomationE26 extends TestBase {
+public class JUnit18_AutomationE_26 extends TestBase {
 
     //1. Launch browser
     //2. Navigate to url 'http://automationexercise.com'
